@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/*****************************************
+*轮播css								 *
+* (c) 2014 from yuxuan-王军				 *
+*2014-10-3								 *
+*****************************************/
+.bannerbox{
+	width: 1380px; height: 360px;position:relative;overflow: hidden;
+}
+.banner{
+	width: 6900px; height: 360px; position: relative; margin:0px; padding:0px; right:0px; float:left;
+}
+.banner a{
+	display: block;
+}
+.banner li{
+	float: left; width: 1380px; height: 360px; list-style: none;
+}
+.banner li img{
+	height: 100%;
+}
+.bannerbox {
+    width:auto; height:360px;
+}
+.left_bth{
+    width:24px; height:97px; position: absolute;top: 35%;left: 0; background-image:url(../images/img/left_bth.png);
+}
+.right_bth{
+    width:24px; height:97px; position: absolute;top: 35%;right: 0; background-image:url(../images/img/right_bth.png);
+}
